@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmega</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Portfólio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="curriculum.html">Currículo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="suggestion.html">Sugestão</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="py-5">
+        <div class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0">
+                    <span class="text-gradient d-inline">Guia do Projeto Dmega</span>
+                </h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 1 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <div class="flex-fill mb-3 mb-md-0">
+                                    <h2 class="fw-bolder">Página de Login</h2>
+                                    <p>
+                                        Para acessar o sistema, é necessário inserir seus dados de login, incluindo
+                                        e-mail e senha. Como esta é uma versão de teste, você pode usar as seguintes
+                                        credenciais temporárias:
+                                        <br><br>
+                                        Usuário: D<br>
+                                        Senha: 1
+                                    </p>
+                                </div>
+                                <img data-bs-toggle="modal" data-bs-target="#modalPageUser"
+                                    class="img-fluid flex-shrink-0" src="./img/login_user.jpg" alt="Página de Login"
+                                    style="max-width: 250px; height: auto; cursor: pointer;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Page Login User -->
+                <div class="modal fade" id="modalPageUser" tabindex="-1" aria-labelledby="imageModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/login_user.jpg" alt="Página de Login"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 2 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                        <div class="card-body p-2">
+                            <div class="row g-2 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#modalPageMaster01" class="img-fluid"
+                                        src="./img/login_master.png" alt="Imagem de Login Master 1"
+                                        style="max-width: 60%; height: auto; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#modalPageMaster02" class="img-fluid"
+                                        src="./img/login_master02.png" alt="Imagem de Login Master 2"
+                                        style="max-width: 60%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-2">Página de Login Master</h2>
+                                    <p class="mb-0">A Página de Login Master é onde você gerencia os dados dos usuários,
+                                        incluindo a criação, alteração e exclusão de acessos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Modal Page Login Master Img 1 -->
+                <div class="modal fade" id="modalPageMaster01" tabindex="-1" aria-labelledby="imageModalLabel01"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/login_master.png" alt="Página de Login Master 1"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Page Login Master Img 2 -->
+                <div class="modal fade" id="modalPageMaster02" tabindex="-1" aria-labelledby="imageModalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/login_master02.png" alt="Página de Login Master 2"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 3 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <div class="flex-fill mb-3 mb-md-0">
+                                    <h2 class="fw-bolder">Página Home</h2>
+                                    <p>Após fazer login no sistema, a primeira página que você verá é a página inicial.
+                                        Nela, você pode visualizar os itens que foram alterados ou incluídos, conforme
+                                        indicado pelo status mostrado.</p>
+                                </div>
+                                <img data-bs-toggle="modal" data-bs-target="#modalPageHome"
+                                    class="img-fluid flex-shrink-0" src="./img/home_page.png" alt="Página Home"
+                                    style="max-width: 300px; height: auto; cursor: pointer;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Modal Page Home -->
+                <div class="modal fade" id="modalPageHome" tabindex="-1" aria-labelledby="imageModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/home_page.png" alt="Página Home"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 4 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#button" class="img-fluid rounded"
+                                        src="./img/button.png" alt="Botão Inicial"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#button2" class="img-fluid rounded"
+                                        src="./img/button02.png" alt="Botão Inicial 02"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder">Iniciar Processo</h2>
+                                    <p>Para iniciar a operação desejada, clique no botão de menu. Em seguida, selecione
+                                        a operação que você deseja realizar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Button 01 -->
+                <div class="modal fade" id="button" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/button.png" alt="Botão Inicial"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Button 02 -->
+                <div class="modal fade" id="button2" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/button02.png" alt="Botão Inicial 02"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 5 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-7 mb-3 mb-md-0">
+                                    <h2 class="fw-bolder">Página View Assets</h2>
+                                    <p>A página 'View Assets' é destinada para consultar os itens ativos.</p>
+                                </div>
+                                <!-- Imagem -->
+                                <div class="col-12 col-md-5 d-flex justify-content-center">
+                                    <img data-bs-toggle="modal" data-bs-target="#modalViewAssets"
+                                        class="img-fluid rounded" src="./img/view_assets.png" alt="Página View Assets"
+                                        style="max-width: 100%; height: auto; max-height: 800px; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal View Assets -->
+                <div class="modal fade" id="modalViewAssets" tabindex="-1" aria-labelledby="modalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/view_assets.png" alt="Página View Assets"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 6 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#registration_reports" class="img-fluid"
+                                        src="./img/registration_reports.png" alt="Relatórios de Registro"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#registration_reports02"
+                                        class="img-fluid" src="./img/registration_reports02.png"
+                                        alt="Relatórios de Registro 02"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Register assets</h2>
+                                    <p>Para adicionar um item, clique no botão 'Register assets' na aba de menu,
+                                        conforme ilustrado na imagem ao lado. Para finalizar o processo, preencha os
+                                        dados obrigatórios e, em seguida, clique no botão 'To Add'.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Modals Registration Reports 01 -->
+                <div class="modal fade" id="registration_reports" tabindex="-1" aria-labelledby="modalLabel01"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/registration_reports.png" alt="Relatórios de Registro"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modals Registration Reports 02 -->
+                <div class="modal fade" id="registration_reports02" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/registration_reports02.png"
+                                    alt="Relatórios de Registro 02" style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 7 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <h2 class="fw-bolder mb-3">Página de Move assets</h2>
+                                    <p>A página 'Move assets' é onde você gerencia todos os processos relacionados aos
+                                        itens. Nela, você pode alterar, localizar e atribuir responsáveis pelos itens,
+                                        além de inativar itens desejados e consultar os itens ativos.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex justify-content-center">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets" class="img-fluid rounded"
+                                        src="./img/move_assets.png" alt="Relatórios de Registro"
+                                        style="max-width: 100%; height: auto; max-height: 500px; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal Move assets -->
+                <div class="modal fade" id="moveAssets" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets.png" alt="Move Assets"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 8 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets2" class="img-fluid rounded"
+                                        src="./img/move_assets2.png" alt="Imagem de Dar Baixa Nos Itens Selecionados"
+                                        style="max-width: 100%; height: auto; max-height: 500px; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Dar Baixa Nos Itens Selecionados</h2>
+                                    <p class="mb-0">Para dar baixa nos itens selecionados, marque as caixas de seleção
+                                        e, em seguida, clique no botão 'Write Off Selected', conforme ilustrado na
+                                        imagem ao lado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Move assets 2 -->
+                <div class="modal fade" id="moveAssets2" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets2.png" alt="Move Assets 2"
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 9 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <h2 class="fw-bolder mb-3">Consulta de Itens Ativos</h2>
+                                    <p class="mb-0">Para consultar itens ativos, informe os dados no campo de pesquisa,
+                                        conforme ilustrado na imagem ao lado. A consulta pode ser feita por descrição,
+                                        código, responsável ou localização. Para visualizar todos os itens, basta deixar
+                                        o campo de pesquisa em branco e pressionar a tecla Enter no teclado.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets3" class="img-fluid rounded"
+                                        src="./img/move_assets3.png" alt="Consulta de Itens Ativos"
+                                        style="max-width: 100%; height: auto; max-height: 500px; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal Move assets 3 -->
+                <div class="modal fade" id="moveAssets3" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets3.png" alt="Move Assets 3"
+                                    style="width: 100%; height: auto; max-height: 90vh;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 10 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets4" class="img-fluid rounded"
+                                        src="./img/move_assets4.png" alt="Altera o Item Individualmente"
+                                        style="max-width: 100%; height: auto; max-height: 400px; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Altera o Item Individualmente</h2>
+                                    <p class="mb-0">Para fazer alterações em itens individualmente, clique nos botões ao
+                                        lado, conforme mostrado na imagem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Modal Move assets 4 -->
+                <div class="modal fade" id="moveAssets4" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets4.png" alt="Altera o Item Individualmente"
+                                    style="width: 100%; height: auto; max-height: 90vh; object-fit: contain;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 12 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <h2 class="fw-bolder mb-3">Atualiza a Localização e o Responsável Pelo Item</h2>
+                                    <p class="mb-0">Para alterar a localização e o responsável pelo item, clique no
+                                        ícone de edição, conforme mostrado na imagem ao lado. Em seguida, preencha os
+                                        dados necessários para finalizar o processo.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets5" class="img-fluid rounded"
+                                        src="./img/move_assets5.png" alt="Atualiza Localização e Responsável"
+                                        style="max-width: 100%; height: auto; max-height: 400px; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets6" class="img-fluid rounded"
+                                        src="./img/move_assets6.png" alt="Atualiza Localização e Responsável 02"
+                                        style="max-width: 100%; height: auto; max-height: 400px; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal Move assets 5 -->
+                <div class="modal fade" id="moveAssets5" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets5.png"
+                                    alt="Atualiza Localização e Responsável 05">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Move assets 6 -->
+                <div class="modal fade" id="moveAssets6" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets6.png"
+                                    alt="Atualiza Localização e Responsável 06">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 13 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                        <div class="card-body p-3">
+                            <div class="row g-2 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets7" class="img-fluid"
+                                        src="./img/move_assets7.png" alt="Registrar Baixa do Item 1"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#moveAssets8" class="img-fluid"
+                                        src="./img/move_assets8.png" alt="Registrar Baixa do Item 2"
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-2">Registrar Baixa do Item Individualmente</h2>
+                                    <p class="mb-0">Para inativar um item individualmente, clique no ícone mostrado na
+                                        imagem ao lado. Em seguida, preencha o campo 'Write the reason for writing off
+                                        assets' com o motivo da inativação do item. Após isso, clique em 'To go down'.
+                                        Lembre-se de que este processo é irreversível.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal Move assets 7 -->
+                <div class="modal fade" id="moveAssets7" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets7.png" alt="Registrar Baixa do Item 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Move assets 8 -->
+                <div class="modal fade" id="moveAssets8" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/move_assets8.png" alt="Registrar Baixa do Item 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 14 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-2">Pagina Written-off assets</h2>
+                                    <p class="mb-0">Para visualizar todos os itens que foram inativados, acesse a página
+                                        'Written-off assets'. Nela, você poderá realizar consultas para encontrar os
+                                        itens desejados.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#writtenOff" class="img-fluid"
+                                        src="./img/Written-off assets.png" alt=""
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <img data-bs-toggle="modal" data-bs-target="#writtenOff2" class="img-fluid"
+                                        src="./img/Written-off assets2.png" alt=""
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Modal Written-off assets -->
+                <div class="modal fade" id="writtenOff" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/Written-off assets.png" alt="Written-off assets">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Written-off assets 2 -->
+                <div class="modal fade" id="writtenOff2" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/Written-off assets2.png" alt="Written-off assets 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 15 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-4 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#registrationReports" class="img-fluid"
+                                        src="./img/Registration reports.png"
+                                        alt="Relatório de Itens Cadastrados Recentemente"
+                                        style="max-width: 90%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Relatório de Itens Cadastrados Recentemente</h2>
+                                    <p class="mb-0">Para gerar um relatório de itens cadastrados recentemente, acesse o
+                                        menu e clique no botão 'Registration reports'.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Registration reports -->
+                <div class="modal fade" id="registrationReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Registration reports.png"
+                                    alt="Relatórios de Registro 02">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 16 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Relatório de Itens Inativos</h2>
+                                    <p class="mb-0">Para acessar o relatório de itens inativos, vá ao menu e clique no
+                                        botão 'Output reports'.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#outputReports" class="img-fluid"
+                                        src="./img/Output_reports.png" alt=""
+                                        style="max-width: 100%; height: auto; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Output Reports -->
+                <div class="modal fade" id="outputReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Output_reports.png" alt="Relatório de Itens Inativos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 17 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex justify-content-center">
+                                    <img data-bs-toggle="modal" data-bs-target="#movementReports" class="img-fluid"
+                                        src="./img/Movement_reports.png" alt="Relatório de Itens Cadastrados"
+                                        style="max-width: 100%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Relatório de Itens Recentemente Alterados</h2>
+                                    <p class="mb-0">Para acessar o relatório de itens cadastrados recentemente, vá ao
+                                        menu e clique no botão 'Movement reports'.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Modal Movement Reports -->
+                <div class="modal fade" id="movementReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Movement_reports.png"
+                                    alt="Relatório de Itens Recentemente Alterados">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 18 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Página Profile</h2>
+                                    <p class="mb-0">Na página 'Profile', você pode visualizar seus dados e realizar as
+                                        alterações conforme necessário.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#Profile" class="img-fluid"
+                                        src="./img/Profile.png" alt=""
+                                        style="max-width: 100%; height: auto; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal Profile-->
+
+
+                <!-- Modal Profile -->
+                <div class="modal fade" id="Profile" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Profile.png" alt="Página Profile">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 19 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3"> <!-- Reduzido padding -->
+                            <div class="row g-2 align-items-center"> <!-- Reduzido o espaço entre itens -->
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <!-- Reduzido o espaço entre imagens -->
+                                    <img data-bs-toggle="modal" data-bs-target="#Profile2" class="img-fluid"
+                                        src="./img/Profile2.png" alt=""
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <!-- Reduzido max-width -->
+                                    <img data-bs-toggle="modal" data-bs-target="#Profile3" class="img-fluid"
+                                        src="./img/Profile3.png" alt=""
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                    <!-- Reduzido max-width -->
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-2">Gerenciamento de Perfil</h2>
+                                    <!-- Reduzido o espaçamento inferior -->
+                                    <p class="mb-0">Na página de perfil, o usuário pode consultar suas informações e
+                                        realizar alterações. Para isso, clique no botão 'Settings', conforme mostrado na
+                                        imagem ao lado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Profile 2-->
+                <div class="modal fade" id="Profile2" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Profile2.png" alt="Imagem Profile 2"
+                                    style="max-width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Profile 3-->
+                <div class="modal fade" id="Profile3" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Profile3.png" alt="Imagem Profile 3"
+                                    style="max-width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Links Úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.linkedin.com/in/david-marques-mega-de-sousa-282077221/" target="_blank"
+                                class="text-light"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://github.com/MarqsDavid?tab=repositories" target="_blank"
+                                class="text-light"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="https://wa.me/5563992977850" target="_blank" class="text-light"><i
+                                    class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:davidmarques.mr@gmail.com" class="text-light"><i
+                                    class="fas fa-envelope"></i> davidmarques.mr@gmail.com</a></li>
+                        <li><a href="tel:+5563992977850" class="text-light"><i class="fas fa-phone-alt"></i> (63)
+                                99297-7850</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--    <div class="row">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="text-white"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="#" class="text-white"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+    </footer>
+    <!-- Scripts -->
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
