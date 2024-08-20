@@ -326,7 +326,67 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card  -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-2">
+                                    <img data-bs-toggle="modal" data-bs-target="#addResponsible" class="img-fluid"
+                                        src="./img/Add responsible.png" alt=""
+                                        style="max-width: 80%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Add responsible</h2>
+                                    <p>A página 'Add responsible' é onde você pode incluir os responsáveis dos itens..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="addResponsible" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/Add responsible.png" alt=""
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card  -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-3">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <h2 class="fw-bolder mb-3">Add locations</h2>
+                                    <p>A página 'Add locations' é onde você pode incluir as localizações dos itens.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex justify-content-center">
+                                    <img data-bs-toggle="modal" data-bs-target="#addLocations" class="img-fluid rounded"
+                                        src="./img/Add locations.png" alt="Add locations"
+                                        style="max-width: 100%; height: auto; max-height: 500px; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="modal fade" id="addLocations" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <img class="img-fluid" src="./img/Add locations.png" alt=""
+                                    style="width: 100%; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Modal Move assets -->
                 <div class="modal fade" id="moveAssets" tabindex="-1" aria-labelledby="modalLabel02" aria-hidden="true">
@@ -628,7 +688,7 @@
                                 <div class="col-12 col-md-6">
                                     <h2 class="fw-bolder mb-3">Relatório de Itens Cadastrados Recentemente</h2>
                                     <p class="mb-0">Para gerar um relatório de itens cadastrados recentemente, acesse o
-                                        menu e clique no botão 'Registration reports'.</p>
+                                        menu e clique no botão 'Report by registered'.</p>
                                 </div>
                             </div>
                         </div>
@@ -657,7 +717,7 @@
                                 <div class="col-12 col-md-6">
                                     <h2 class="fw-bolder mb-3">Relatório de Itens Inativos</h2>
                                     <p class="mb-0">Para acessar o relatório de itens inativos, vá ao menu e clique no
-                                        botão 'Output reports'.</p>
+                                        botão 'Report by outputs'.</p>
                                 </div>
                                 <!-- Imagens -->
                                 <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
@@ -669,20 +729,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Modal Output Reports -->
-                <div class="modal fade" id="outputReports" tabindex="-1" aria-labelledby="modalLabel02"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img class="img-fluid" src="./img/Output_reports.png" alt="Relatório de Itens Inativos">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
                     <!-- Project Card 17 -->
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
@@ -698,13 +744,90 @@
                                 <div class="col-12 col-md-6">
                                     <h2 class="fw-bolder mb-3">Relatório de Itens Recentemente Alterados</h2>
                                     <p class="mb-0">Para acessar o relatório de itens cadastrados recentemente, vá ao
-                                        menu e clique no botão 'Movement reports'.</p>
+                                        menu e clique no botão 'Report by movement'.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card  -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Relatório de Distribuição de Itens por Localização</h2>
+                                    <p class="mb-0">Para acessar o relatório de distribuição de tens por localização, vá
+                                        ao
+                                        menu e clique no botão 'Report by Location'.</p>
+                                </div>
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center gap-3">
+                                    <img data-bs-toggle="modal" data-bs-target="#locationReports" class="img-fluid"
+                                        src="./img/Location.png" alt=""
+                                        style="max-width: 100%; height: auto; cursor: pointer;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal  -->
+                <div class="modal fade" id="locationReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Location.png" alt="Relatório de Itens Inativos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row g-3 align-items-center">
+                                <!-- Imagens -->
+                                <div class="col-12 col-md-6 d-flex justify-content-center">
+                                    <img data-bs-toggle="modal" data-bs-target="#responsibleReports" class="img-fluid"
+                                        src="./img/Responsible.png" alt="Relatório de Itens Cadastrados"
+                                        style="max-width: 100%; height: auto; cursor: pointer;" />
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12 col-md-6">
+                                    <h2 class="fw-bolder mb-3">Relatório de Itens por Responsável</h2>
+                                    <p class="mb-0">Para acessar o relatório de itens por responsável, vá ao
+                                        menu e clique no botão 'Report by Responsible'.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="responsibleReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Responsible.png"
+                                    alt="Relatório de Itens por Responsável">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Output Reports -->
+                <div class="modal fade" id="outputReports" tabindex="-1" aria-labelledby="modalLabel02"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="./img/Output_reports.png" alt="Relatório de Itens Inativos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
                 <!-- Modal Movement Reports -->
@@ -811,7 +934,6 @@
                         </div>
                     </div>
                 </div>
-
 
     </section>
 
